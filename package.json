@@ -1,0 +1,46 @@
+{
+	"name": "@cfware/add-event-listener",
+	"version": "0.1.0",
+	"description": "Calls owner.addEventListener and returns a function to remove the listener",
+	"main": "add-event-listener.js",
+	"scripts": {
+		"release": "standard-version --sign",
+		"test": "xo && nyc ava -v"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"files": [
+		"*.js"
+	],
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/add-event-listener.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/add-event-listener/issues"
+	},
+	"homepage": "https://github.com/cfware/add-event-listener#readme",
+	"devDependencies": {
+		"ava": "^1.3.1",
+		"esm": "^3.2.20",
+		"nyc": "^13.3.0",
+		"standard-version": "^5.0.2",
+		"xo": "^0.24.0"
+	},
+	"nyc": {
+		"all": true,
+		"check-coverage": true,
+		"per-file": true,
+		"lines": 100,
+		"statements": 100,
+		"functions": 100,
+		"branches": 100,
+		"require": [
+			"esm"
+		]
+	}
+}
