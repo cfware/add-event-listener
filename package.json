@@ -13,7 +13,8 @@
 	"author": "Corey Farrell",
 	"license": "MIT",
 	"files": [
-		"*.js"
+		"*.js",
+		"!nyc.config.js"
 	],
 	"keywords": [],
 	"repository": {
@@ -25,22 +26,11 @@
 	},
 	"homepage": "https://github.com/cfware/add-event-listener#readme",
 	"devDependencies": {
+		"@cfware/nyc": "^0.4.4",
 		"ava": "^2.0.0",
-		"esm": "^3.2.20",
-		"nyc": "^14.0.0",
+		"esm": "^3.2.25",
+		"nyc": "^14.1.1",
 		"standard-version": "^6.0.1",
 		"xo": "^0.24.0"
-	},
-	"nyc": {
-		"all": true,
-		"check-coverage": true,
-		"per-file": true,
-		"lines": 100,
-		"statements": 100,
-		"functions": 100,
-		"branches": 100,
-		"require": [
-			"esm"
-		]
 	}
 }
