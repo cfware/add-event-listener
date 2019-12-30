@@ -12,7 +12,6 @@
 	},
 	"author": "Corey Farrell",
 	"license": "MIT",
-	"keywords": [],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/cfware/add-event-listener.git"
@@ -22,10 +21,10 @@
 	},
 	"homepage": "https://github.com/cfware/add-event-listener#readme",
 	"devDependencies": {
-		"@cfware/nyc": "^0.5.0",
+		"@cfware/nyc": "^0.6.0",
 		"ava": "^2.0.0",
 		"esm": "^3.2.25",
-		"nyc": "^14.1.1",
+		"nyc": "^15.0.0",
 		"standard-version": "^7.0.0",
 		"xo": "^0.25.3"
 	}
