@@ -1,6 +1,6 @@
 # @cfware/add-event-listener
 
-[![Travis CI][travis-image]][travis-url]
+![Tests][tests-status]
 [![Greenkeeper badge][gk-image]](https://greenkeeper.io/)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -43,8 +43,7 @@ npm test
 
 [npm-image]: https://img.shields.io/npm/v/@cfware/add-event-listener.svg
 [npm-url]: https://npmjs.org/package/@cfware/add-event-listener
-[travis-image]: https://travis-ci.org/cfware/add-event-listener.svg?branch=master
-[travis-url]: https://travis-ci.org/cfware/add-event-listener
+[tests-status]: https://github.com/cfware/add-event-listener/workflows/Tests/badge.svg
 [gk-image]: https://badges.greenkeeper.io/cfware/add-event-listener.svg
 [downloads-image]: https://img.shields.io/npm/dm/@cfware/add-event-listener.svg
 [downloads-url]: https://npmjs.org/package/@cfware/add-event-listener
