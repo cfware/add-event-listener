@@ -1,6 +1,5 @@
 import t from 'libtap';
 
-// eslint-disable-next-line import/no-unresolved
 import addEventListener from '@cfware/add-event-listener';
 
 t.type(addEventListener, 'function');

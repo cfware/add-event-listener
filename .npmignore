@@ -1,6 +1,6 @@
 *.tgz
 node_modules
-nyc.config.cjs
+nyc.config.js
 coverage
 package
 .github
