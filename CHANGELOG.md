@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/cfware/add-event-listener/compare/v0.1.2...v0.1.3) (2020-11-06)
+
+
+### Bug Fixes
+
+* Size reduction ([6df4d40](https://github.com/cfware/add-event-listener/commit/6df4d404187c170b2e975972807d50c0ae82d9b6))
+
 ### [0.1.2](https://github.com/cfware/add-event-listener/compare/v0.1.1...v0.1.2) (2020-02-08)
 
 

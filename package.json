@@ -1,6 +1,6 @@
 {
 	"name": "@cfware/add-event-listener",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Calls owner.addEventListener and returns a function to remove the listener",
 	"main": "add-event-listener.js",
 	"exports": "./add-event-listener.js",
