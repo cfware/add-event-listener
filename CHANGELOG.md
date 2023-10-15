@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/cfware/add-event-listener/compare/v0.1.4...v1.0.0) (2023-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Require node.js 18
+
+### Features
+
+* Require node.js 18 ([3f8a086](https://github.com/cfware/add-event-listener/commit/3f8a0866e130b45766b3f45e6203485eda598238))
+
 ### [0.1.4](https://github.com/cfware/add-event-listener/compare/v0.1.3...v0.1.4) (2020-11-26)
 
 
