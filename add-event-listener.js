@@ -1,5 +1,5 @@
 export default (owner, ...args) => {
-	owner.addEventListener(...args);
+    owner.addEventListener(...args);
 
-	return () => owner.removeEventListener(...args);
+    return () => owner.removeEventListener(...args);
 };

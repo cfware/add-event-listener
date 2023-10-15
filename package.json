@@ -1,34 +1,34 @@
 {
-	"name": "@cfware/add-event-listener",
-	"version": "0.1.4",
-	"description": "Calls owner.addEventListener and returns a function to remove the listener",
-	"main": "add-event-listener.js",
-	"exports": "./add-event-listener.js",
-	"type": "module",
-	"scripts": {
-		"pretest": "cfware-lint .",
-		"tests-only": "nyc -s node --experimental-loader @istanbuljs/esm-loader-hook test.js",
-		"test": "npm run -s tests-only",
-		"posttest": "nyc report --check-coverage"
-	},
-	"engines": {
-		"node": ">=16.12.0"
-	},
-	"author": "Corey Farrell",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/cfware/add-event-listener.git"
-	},
-	"bugs": {
-		"url": "https://github.com/cfware/add-event-listener/issues"
-	},
-	"homepage": "https://github.com/cfware/add-event-listener#readme",
-	"devDependencies": {
-		"@cfware/lint": "^3.0.2",
-		"@cfware/nyc": "^0.7.1",
-		"@istanbuljs/esm-loader-hook": "^0.2.0",
-		"libtap": "^1.4.0",
-		"nyc": "^15.1.0"
-	}
+    "name": "@cfware/add-event-listener",
+    "version": "0.1.4",
+    "description": "Calls owner.addEventListener and returns a function to remove the listener",
+    "main": "add-event-listener.js",
+    "exports": "./add-event-listener.js",
+    "type": "module",
+    "scripts": {
+        "pretest": "cfware-lint .",
+        "tests-only": "nyc -s node --experimental-loader @istanbuljs/esm-loader-hook test.js",
+        "test": "npm run -s tests-only",
+        "posttest": "nyc report --check-coverage"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "author": "Corey Farrell",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cfware/add-event-listener.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cfware/add-event-listener/issues"
+    },
+    "homepage": "https://github.com/cfware/add-event-listener#readme",
+    "devDependencies": {
+        "@cfware/lint": "^4",
+        "@cfware/nyc": "^1",
+        "@istanbuljs/esm-loader-hook": "^0.2",
+        "libtap": "^1",
+        "nyc": "^15"
+    }
 }
